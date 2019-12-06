@@ -1,0 +1,439 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial;
+    background-color: gray;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/*
+=============
+I C O N O
+=============
+*/
+
+/*@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?53p5wg');
+  src:  url('../fonts/icomoon.eot?53p5wg#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?53p5wg') format('truetype'),
+    url('../fonts/icomoon.woff?53p5wg') format('woff'),
+    url('../fonts/icomoon.svg?53p5wg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}*/
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook2:before {
+    content: "\ea91";
+}
+
+.icon-instagram:before {
+    content: "\ea92";
+}
+
+.icon-youtube:before {
+    content: "\ea9d";
+}
+
+
+/*.container{*/
+/*    max-width: 1080px;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto; */
+
+/*}*/
+
+/*
+=============
+B A N N E R
+=============
+*/
+
+.banner {
+    margin-bottom: 15px;
+    margin-left: 100px;
+
+}
+
+/*
+=============
+S O C I A L S
+=============
+*/
+
+.img1 {
+    max-width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.socials {
+    display: flex;
+    margin: 15px 0;
+}
+
+.socials__link {
+    text-decoration: none;
+    font-size: 35px;
+    color: #000000;
+    display: block;
+    padding: 5px;
+}
+
+.socials__link:hover {
+    color: #fff
+}
+
+/*
+=============
+H E A D E R
+=============
+*/
+
+.header {
+    padding: 15px;
+    font-family: arial;
+    display: flex;
+
+
+}
+
+.fotojuntos {
+    margin-left: 328px;
+    width: 80%;
+}
+
+.fotoyuntas {
+    margin-left: 350px;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.header__nav {
+    flex-grow: 1;
+}
+
+/*
+=============
+M E N U
+=============
+*/
+
+.menu {
+    display: flex;
+    background-color: gray;
+    height: 100%;
+
+}
+
+.menu__item {
+    flex-grow: 1;
+}
+
+.menu__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    color: #ffff;
+    text-decoration: none;
+    height: 100%;
+}
+
+.menu__link:hover {
+    /*background:;*/
+    color: #ffff33;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.nav-link {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+}
+
+/* Fixes dropdown menus placed on the right side */
+.ml-auto {
+    left: auto !important;
+    right: 0px;
+}
+
+.nav-link:hover {
+    color: #ffff33 !important;
+}
+
+.active .nav-link {
+    color: #ffff33 !important;
+}
+
+/*
+=============
+H E A D
+=============
+*/
+
+.head {
+    align-items: center;
+    justify-content: center;
+}
+
+.head__text {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    font-family: arial;
+}
+
+.head__text2 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 52px;
+    text-align: center;
+
+    font-family: arial;
+
+}
+
+.head__fotos {
+    align-items: center;
+
+
+}
+
+.head__img {
+    width: 380px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 47px;
+
+}
+
+.head__img3 {
+    width: 500px;
+}
+
+.teaser__text {
+
+}
+
+
+/*
+=============
+F O O T E R
+=============
+*/
+
+/*.footer{*/
+/*  */
+/*  border: solid 0px #000;*/
+/*  background-color: gray;*/
+/*  color: #000;*/
+/*  text-align: center;*/
+/*  font-family: arial;*/
+/*  */
+/*  font-size: 20px;*/
+
+
+/*} */
+
+/*
+=============
+V I D E O
+=============
+*/
+
+video {
+    max-width: 100%;
+    height: auto;
+    width: 1170px;
+
+
+}
+
+.media {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    margin: 10px;
+
+
+}
+
+.media_videoz {
+    padding: 60px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ======== PORTAFOLIO ==*/
+
+.cuadros {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ff6633;
+}
+
+.cuadro {
+    display: flex;
+    justify-content: center;
+}
+
+/* ======== VIDEO === */
+
+.blog {
+    height: 1435px;
+}
+
+.blog__size {
+    margin-top: 112px;
+}
+
+.blog__all {
+    background-color: gray;
+
+}
+
+.blog__box {
+
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: gray;
+}
+
+.blog__content {
+    width: 1080px;
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: gray;
+
+
+}
+
+.blog__text {
+    width: 1000px;
+    padding: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #ffff;
+    background-color: gray;
+    font-size: 20px;
+}
+
+.blog__fecha {
+    font-family: arial;
+}
+
+.blog__nombre {
+    font-family: arial;
+}
+
+.blog__parrafo {
+    font-family: arial;
+}
+
+/*
+=============
+M A I N
+=============
+*/
+
+.main {
+    padding: 37px;
+
+
+}

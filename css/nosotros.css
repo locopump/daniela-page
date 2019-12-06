@@ -1,0 +1,30 @@
+.img-director {
+    background: #000000;
+}
+
+.blog-director {
+    text-align: center;
+    color: #ffff;
+    background-color: gray;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.blog__fecha {
+    color: #ffff33;
+    font-weight: bold;
+}
+
+.c-t {
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+}
+.c-st {
+    color: #ffff33;
+    font-weight: bold;
+}
+
+.c-bg-black {
+    background: #000000;
+    color: #ffffff;
+}
